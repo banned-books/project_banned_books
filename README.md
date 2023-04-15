@@ -40,4 +40,13 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **
 
 ## Sentiment Analysis (Amazon.com review dataset)
 
+## Appendix
+
+## Statement of Work
+
+- Joan | 
+- Alexis |
+- B | Amazon.com web scraper data acquisition/cleaning, banned book metadata acquisition/cleaning, LDA & BERTopic modeling, transfer learning (visual similarity) & PixPlot, basic EDA
+
+
 
