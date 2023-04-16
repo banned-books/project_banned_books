@@ -24,9 +24,8 @@
 However, we recommend using Option 2 below to use free GPUs in Colab.
 
 # Option 2: Run Our Code in Colab & GDrive 
-**Click the Badges Below as You Read Along**
 
-Download our four datasets and upload them to your Google Colab to run the code on your own Colab account.
+1. Download our four datasets and upload them to your Google Colab to run the code on your own Colab account.
 
    - Banned books metadata [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
@@ -36,6 +35,8 @@ Download our four datasets and upload them to your Google Colab to run the code 
 )](https://drive.google.com/file/d/1KPs4HP9GyRdAg7nQVV-CemhCcYiWgmMn/view?usp=share_link)
    - Banned book cover images [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/drive/folders/1RhDUK4whl85m9_qLSXFmG80UKFlZfhm0?usp=share_link)
+
+2. **Click the Google (data) and Colab (code) Badges Below as You Read Along**
 
 ## Introduction
 
