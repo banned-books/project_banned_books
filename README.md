@@ -37,6 +37,7 @@ However, we recommend using Option 2 below to use free GPUs in Colab.
 )](https://drive.google.com/drive/folders/1RhDUK4whl85m9_qLSXFmG80UKFlZfhm0?usp=share_link)
 
 2. **Click the Google (data) and Colab (code) Badges Below as You Read Along**
+3. Create a copy of the Colab notebooks that you want to run in your Colab account
 
 ## Introduction
 
