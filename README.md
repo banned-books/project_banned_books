@@ -23,21 +23,20 @@ We want to dive more into the question: **What can we learn about these banned b
 
 ## Datasets
 
-We retrieved the list of banned books from the original dataset of banned books tracked by PEN America & the ALA (from July 1, 2021 to June 30, 2022). The most important variables are the `title` and the `author` of the banned book. Additionally, the book's `origin_of_challenge` (a ban created either from political and/or parental pressure or a formal, written challenge) and the `type_of_ban` (either in libraries, classrooms, both libraries and classrooms, or pending investigation). We also added the `amazon_url` to the book details (to feed these urls into our custom web scraper to grab book reviews). The banned book list contains 1,648 unique banned book titles.
+We are utilizing **Google Colab** (code / machine learning for reproducibility and free GPU access), **Github** (repository), and **Google Drive** (for large file storage).
 
-In addition to the PEN America/ALA dataset, we scraped or manually entered data to build the following custom datasets:
+![Screenshot of integration of Google Colab, Github, and Google Drive](https://drive.google.com/uc?id=1FtOW4QDqXzs0HWF2__9bBFdLCQibfHhE)
+
+We retrieved the list of banned books from the original dataset of banned books tracked by PEN America & the ALA (from July 1, 2021 to June 30, 2022). The most important variables were the `title` and the `author` of the banned book. Additionally, we used the banned book's `origin_of_challenge` (i.e., whether a ban was created from either political and/or parental pressure or a formal, written challenge) and the `type_of_ban` (i.e., where the banned took place, such as in libraries, classrooms, both libraries and classrooms, or pending investigation). Finally, we manually added the `amazon_url` to the book details (to later feed these urls into our custom web scraper to grab book reviews). The original banned book list contained 1,648 unique banned book titles.
+
+In addition to the PEN America/ALA dataset, we either scraped or manually entered data to build the following custom datasets:
 
 - Goodreads metadata on the list of banned books: We manually entered this data into acsv file to comply with Goodreads Terms of Use which asks us not to scrape their website and not to redistribute their data for commercial purposes. We are using this data solely for educational purposes. We merged this dataset with the original banned book list from PEN America and the ALA above. Our Goodreads dataset is comprised of the 1,648 banned book titles' book title, the author, the book cover goodreads_image_url, the published_date (when the book was first published), the book description, and the book tags. 
 
-- Amazon.com reviews on the same list of banned books: We hope to provide a small window into opinion mining and sentiment around these banned books (as it pertains to Amazon.com reviews). These reviews were only scraped from U.S. customers. We followed [Amazon.com Terms of Use policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280) for web scraping by running our custom web scraper in small batches, with timeouts, and during off-peak hours. We are using the data solely for educational purposes. Our custom dataset is comprised of 362,924 Amazon.com reviews. Each review is comprised of the banned book's title, the body of the review, the review rating (one to five stars), and the review date. These reviews span from August 9, 1997, to October 12, 2022.
+- Amazon.com reviews on the same list of banned books: We hope to provide a small window into opinion mining and sentiment around these banned books (as it pertains to Amazon.com reviews). These reviews were only scraped from U.S. customers. We followed [Amazon.com Terms of Use policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280) for web scraping by running our custom web scraper in small batches, with timeouts, and during off-peak hours. We are using the data solely for educational purposes. Our custom dataset is comprised of 362,924 Amazon.com reviews. Each review is comprised of the banned book's title, the body of the review, the review rating (one to five stars), and the review date. These reviews span from August 9, 1997, to October 12, 2022. You can easily access and run our custom Amazon.com web scraper in Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ezec1HS3rCFXAgVp_qgBqMCxO5V3zP9A?authuser=4#scrollTo=zvCIC6Nxg2Ne) 
 
 ---
 
-You can easily access and run our custom Amazon.com web scraper in Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ezec1HS3rCFXAgVp_qgBqMCxO5V3zP9A?authuser=4#scrollTo=zvCIC6Nxg2Ne) 
-
-We are utilizing Google Colab (code / machine learning for reproducibility and free GPU access), Github (repository), and Google Drive (for large file storage).
-
-![Screenshot of integration of Google Colab, Github, and Google Drive](https://drive.google.com/uc?id=1FtOW4QDqXzs0HWF2__9bBFdLCQibfHhE)
 
 ## Exploratory Data Analysis
 
@@ -57,10 +56,10 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **
 
 ## Statement of Work
 
-- Joan | 
-- Alexis |
-- B | Amazon.com banned book reviews web scraper data acquisition/cleaning, banned book metadata acquisition/cleaning, custom script to download banned book cover images, LDA & BERTopic topic modeling, transfer learning (visual similarity) & custom PixPlot build, basic EDA, proof of concept visual similarity recommendation system, setting up Git org/Colab and compute management/GDrive for data
+- **Joan** | EDA and interactive graphs, topic modeling, ethics and considerations, report writing and editing
 
+- **Alexis** | EDA, supervsied learning / sentiment analysis, topic modeling, report writing and editing
 
+- **B** | Amazon.com banned book reviews web scraper data acquisition/cleaning, banned book metadata acquisition/cleaning, custom script to download banned book cover images, LDA & BERTopic topic modeling, transfer learning (visual similarity) & custom PixPlot build, basic EDA, proof of concept visual similarity recommendation system, setting up Git org & Google Colab and compute management and GDrive for data, report writing and editing
 
 
