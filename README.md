@@ -43,7 +43,7 @@ In addition to the PEN America/ALA dataset, we either scraped or manually entere
 
 ## Exploratory Data Analysis
 
-We conducted some EDA on our Goodreads and ALA metadata as well as our Amazon.com review dataset. Additionally, we applied Scattertext to our Goodreads and ALA metadata to explore the topics being banned (and their ban frequencies) by either: 1) parental or political pressure or 2) through a written, formal book ban process. You can find our banned book metadata EDA in [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://colab.research.google.com/drive/1onxnUEdiLnnVY7O-mES5nWdUV6PSvgaP?usp=share_link) and our Amazon.com banned book reviews EDA in [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://colab.research.google.com/drive/11VtVOWohDFFgzN0UArClYDTYD_er0mug?usp=share_link).
+We conducted some EDA on our Goodreads and ALA metadata as well as our Amazon.com review dataset. Additionally, we applied Scattertext to our Goodreads and ALA metadata to explore the topics being banned (and their ban frequencies) by either: 1) parental or political pressure or 2) through a written, formal book ban process. You can find our banned book metadata EDA in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1onxnUEdiLnnVY7O-mES5nWdUV6PSvgaP?usp=share_link) and our Amazon.com banned book reviews EDA in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11VtVOWohDFFgzN0UArClYDTYD_er0mug?usp=share_link).
 
 ## Topic Modeling (Goodreads + ALA metadata + Amazon.com review dataset)
 
