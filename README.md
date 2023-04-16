@@ -97,7 +97,7 @@ You can view our transfer learning (visual similarity) work [![Open In Colab](ht
 
 ## Appendix
 
-- LDA Topic Modeling on Banned Books Metadata and Amazon.com Reviews
+- LDA Topic Modeling on Banned Books Metadata and Amazon.com Reviews [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vMONl12SPVpHEXQAnrcHYud-Ccs_A7ez?usp=share_link)
 - NMF Topic Modeling
 - Top2Vec Topic Modeling
 - Visual Similarity (Banned Book Cover Image) Recommendation System Proof of Concept (scroll to the bottom of the notebook) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wa_xeP3Nf058z0xCuA7-zIckxkWmAqhg?usp=share_link)
