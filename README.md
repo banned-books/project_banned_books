@@ -6,7 +6,7 @@
 1. Open a terminal and run `git clone git@github.com:banned-books/project_banned_books.git`
 2. Run in the terminal `cd project_banned_books`
 3. Run in the terminal `pip3 install requirements.txt`
-4. Download our four datasets: 
+4. Download our four datasets (which are too large to store in GitHub): 
    - Banned books metadata [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
    - Amazon.com reviews on banned books [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
