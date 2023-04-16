@@ -72,7 +72,9 @@ We conducted some EDA on our Goodreads and ALA metadata as well as our Amazon.co
 
 ## Topic Modeling (Goodreads + ALA metadata + Amazon.com reviews dataset)
 
-We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **BERTopic** was our best approach so far with higher coherence, lower perplexity, clear topic diversity, and human interpretable topics and word outputs.
+We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. 
+
+**BERTopic** was our best approach so far with higher coherence, lower perplexity, clear topic diversity, and human interpretable topics and word outputs. You can read that notebook here [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vZSyz8Dw96DF8z3SpTi8xGrU420yIgB1?usp=share_link). You can find NMF, LDA, and Top2Vec topic modeling work in our Appendix.
 
 ## Visual Similarity (Goodreads + ALA metadata)
 
