@@ -46,7 +46,8 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **
 
 - Joan | 
 - Alexis |
-- B | Amazon.com web scraper data acquisition/cleaning, banned book metadata acquisition/cleaning, cusotm script to download banned book cover images, LDA & BERTopic modeling, transfer learning (visual similarity) & PixPlot, basic EDA
+- B | Amazon.com web scraper data acquisition/cleaning, banned book metadata acquisition/cleaning, cusotm script to download banned book cover images, LDA & BERTopic modeling, transfer learning (visual similarity) & PixPlot, basic EDA, proof of concept visual similarity recommendation system (Appendix)
+
 
 
 
