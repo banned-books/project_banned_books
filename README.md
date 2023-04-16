@@ -69,4 +69,4 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **
 
 ## Acknowledgements
 
-Thank you to [Envoy-VC/awesome-badges](https://github.com/Envoy-VC/awesome-badges) for providing a repo for clean GitHub badges to put on your README.md.
+Thank you to [Envoy-VC/awesome-badges](https://github.com/Envoy-VC/awesome-badges) for providing a repo with clean GitHub badges to put on your README.md.
