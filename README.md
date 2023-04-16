@@ -31,12 +31,11 @@ We retrieved the list of banned books from the original dataset of banned books 
 
 In addition to the PEN America/ALA dataset, we either scraped or manually entered data to build the following custom datasets:
 
-- Goodreads metadata on the list of banned books: We manually entered this data into acsv file to comply with Goodreads Terms of Use which asks us not to scrape their website and not to redistribute their data for commercial purposes. We are using this data solely for educational purposes. We merged this dataset with the original banned book list from PEN America and the ALA above. Our Goodreads dataset is comprised of the 1,648 banned book titles' book title, the author, the book cover goodreads_image_url, the published_date (when the book was first published), the book description, and the book tags. 
+- Goodreads metadata on the list of banned books: We manually entered this data into a `.csv` file to comply with [Goodreads Terms of Use](https://www.goodreads.com/about/terms) which asks us not to scrape their website and not to redistribute their data for commercial purposes. We are using this data solely for educational purposes. We merged this dataset with the original banned book list from PEN America and the ALA above. Our Goodreads dataset is comprised of the 1,648 banned book titles' book title, the author, the book cover goodreads_image_url, the published_date (when the book was first published), the book description, and the book tags. 
 
-- Amazon.com reviews on the same list of banned books: We hope to provide a small window into opinion mining and sentiment around these banned books (as it pertains to Amazon.com reviews). These reviews were only scraped from U.S. customers. We followed [Amazon.com Terms of Use policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280) for web scraping by running our custom web scraper in small batches, with timeouts, and during off-peak hours. We are using the data solely for educational purposes. Our custom dataset is comprised of 362,924 Amazon.com reviews. Each review is comprised of the banned book's title, the body of the review, the review rating (one to five stars), and the review date. These reviews span from August 9, 1997, to October 12, 2022. You can easily access and run our custom Amazon.com web scraper in Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ezec1HS3rCFXAgVp_qgBqMCxO5V3zP9A?authuser=4#scrollTo=zvCIC6Nxg2Ne) 
+- Amazon.com reviews on the same list of banned books: We hope to provide a small window into opinion mining and sentiment around these banned books (as it pertains to Amazon.com reviews). These reviews were only scraped from U.S. customers. We followed [Amazon.com Terms of Use policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280) for web scraping by running our custom web scraper in small batches, with timeouts, and during off-peak hours. We are using the data solely for educational purposes. Our custom dataset is comprised of 362,924 Amazon.com reviews. Each review is comprised of the banned book's `title`, the `body` of the review, the review `rating` (one to five stars), and the `review_date`. These reviews span from August 9, 1997, to October 12, 2022. You can easily access and run our custom Amazon.com web scraper in Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ezec1HS3rCFXAgVp_qgBqMCxO5V3zP9A?authuser=4#scrollTo=zvCIC6Nxg2Ne) 
 
 ---
-
 
 ## Exploratory Data Analysis
 
@@ -44,7 +43,7 @@ We conducted some EDA on our Goodreads and ALA metadata as well as our Amazon.co
 
 ## Topic Modeling (Goodreads + ALA metadata + Amazon.com review dataset)
 
-We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **BERTopic** is our best approach so far.
+We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **BERTopic** was our best approach so far with higher coherence, lower perplexity, clear topic diversity, and human interpretable topics and word outputs.
 
 ## Visual Similarity (Goodreads + ALA metadata)
 
