@@ -21,6 +21,10 @@ In this project, we are applying the following data science techniques to gain a
 
 We want to dive more into the question: **What can we learn about these banned books in the United States from 2021 to 2022? More specifically, can we use data science techniques to find topics in these banned books (topic modeling), notice visual cues/patterns of the book covers (visual similarity), and/or understand some public opinions (sentiment analysis on banned book Amazon reviews) that possibly illuminate more about this censorship movement?**
 
+You can read the blog post on our our project our [![Open In Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
+
+https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white
+
 ## Project Management
 
 We are utilizing **Google Colab** (code / machine learning for reproducibility and free GPU access), **Github** (repository), and **Google Drive** (for large file storage).
@@ -64,4 +68,6 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **
 
 - **B** | Amazon.com banned book reviews web scraper data acquisition/cleaning, banned book metadata acquisition/cleaning, custom script to download banned book cover images, LDA & BERTopic topic modeling, transfer learning (visual similarity) & custom PixPlot build, basic EDA, proof of concept visual similarity recommendation system, setting up Git org & Google Colab and compute management and GDrive for data, report writing and editing
 
+## Acknowledgements
 
+Thank you to [Envoy-VC/awesome-badges](https://github.com/Envoy-VC/awesome-badges) for providing a repo for clean GitHub badges to put on your README.md.
