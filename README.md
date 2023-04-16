@@ -1,5 +1,5 @@
 
-# What can we learn about book banning in the United States?
+# What can we learn about book bans in the United States from 2021 to 2022?
 
 # Option 1: Directions to Run Our Code from GitHub (Manually)
 
