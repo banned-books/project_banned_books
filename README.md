@@ -100,3 +100,5 @@ You can view our transfer learning (visual similarity) work [![Open In Colab](ht
 ## Acknowledgements
 
 Thank you to [Envoy-VC/awesome-badges](https://github.com/Envoy-VC/awesome-badges) for providing a repo with clean GitHub badges to put on your README.md.
+
+Thank you to [Yale's Digital Humanities Lab's PixPlot open-source library]([https://github.com/Envoy-VC/awesome-badges](https://github.com/YaleDHLab/pix-plot)), [BERTopic's topic modeling open-source library](https://github.com/MaartenGr/BERTopic), and other open-source libraries and toolkits that make this work possible. We :heart: open-source.
