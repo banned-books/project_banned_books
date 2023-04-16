@@ -1,3 +1,6 @@
+
+# What can we learn about book banning in the United States?
+
 # Option 1: Directions to Run Our Code from GitHub (Manually)
 
 1. Open a terminal and run `git clone git@github.com:banned-books/project_banned_books.git`
@@ -18,10 +21,7 @@
 
 However, we recommend using Option 2 below to use free GPUs in Colab.
 
-# Option 2: Run Our Code in Colab & GDrive (Click the Badges Below)
-
-
-# What can we learn about book banning in the United States?
+# Option 2: Run Our Code in Colab & GDrive (Click the Badges Below as You Read Along)
 
 ## Introduction
 
