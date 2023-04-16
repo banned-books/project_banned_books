@@ -21,9 +21,7 @@ In this project, we are applying the following data science techniques to gain a
 
 We want to dive more into the question: **What can we learn about these banned books in the United States from 2021 to 2022? More specifically, can we use data science techniques to find topics in these banned books (topic modeling), notice visual cues/patterns of the book covers (visual similarity), and/or understand some public opinions (sentiment analysis on banned book Amazon reviews) that possibly illuminate more about this censorship movement?**
 
-You can read the blog post on our our project our [![Open In Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
-
-https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white
+You can read the project blog post on [![Open In Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](TODO).
 
 ## Project Management
 
@@ -37,16 +35,17 @@ We retrieved the list of banned books from the original dataset of banned books 
 
 In addition to the PEN America/ALA dataset, we either scraped or manually entered data to build the following custom datasets:
 
-- Goodreads metadata on the list of banned books: We manually entered this data into a `.csv` file to comply with [Goodreads Terms of Use](https://www.goodreads.com/about/terms) which asks us not to scrape their website and not to redistribute their data for commercial purposes. We are using this data solely for educational purposes. We merged this dataset with the original banned book list from PEN America and the ALA above. Our Goodreads dataset is comprised of the 1,648 banned book titles' book title, the author, the book cover goodreads_image_url, the published_date (when the book was first published), the book description, and the book tags. You can access that dataset in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+- Goodreads metadata on the list of banned books: We manually entered this data into a `.csv` file to comply with [Goodreads Terms of Use](https://www.goodreads.com/about/terms) which asks us not to scrape their website and not to redistribute their data for commercial purposes. We are using this data solely for educational purposes. We merged this dataset with the original banned book list from PEN America and the ALA above. Our Goodreads dataset is comprised of the 1,648 banned books and the book's `title`, the `author`, the book cover `goodreads_image_url`, the `published_date` (when the book was first published), the book `description`, and the book `goodreads_tags`. You can access that dataset in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
 
-- Amazon.com reviews on the same list of banned books: We hope to provide a small window into opinion mining and sentiment around these banned books (as it pertains to Amazon.com reviews). These reviews were only scraped from U.S. customers. We followed [Amazon.com Terms of Use policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280) for web scraping by running our custom web scraper in small batches, with timeouts, and during off-peak hours. We are using the data solely for educational purposes. Our custom dataset is comprised of 362,924 Amazon.com reviews. Each review is comprised of the banned book's `title`, the `body` of the review, the review `rating` (one to five stars), and the `review_date`. These reviews span from August 9, 1997, to October 12, 2022. You can easily access and run our custom Amazon.com web scraper in Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ezec1HS3rCFXAgVp_qgBqMCxO5V3zP9A?authuser=4#scrollTo=zvCIC6Nxg2Ne) 
+- Amazon.com reviews on the same list of banned books: We hope to provide a small window into opinion mining and sentiment around these banned books (as it pertains to Amazon.com reviews). These reviews were only scraped from U.S. customers. We followed [Amazon.com Terms of Use policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280) for web scraping by running our custom web scraper in small batches, with timeouts, and during off-peak hours. We are using the data solely for educational purposes. Our custom dataset is comprised of 362,924 Amazon.com reviews. Each review is comprised of the banned book's `title`, the `body` of the review, the review `rating` (one to five stars), and the `review_date`. These reviews span from August 9, 1997, to October 12, 2022. You can easily access and run our custom Amazon.com web scraper in Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Br4IdkxcgL9z0FaM52WtiPLGLiXXY630/view?usp=share_link) You can access the Amazon.com banned book reviews in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+)](https://drive.google.com/file/d/1G6Up-3I5bBLIdBODLk3m72kjl_afASni/view?usp=share_link)
 
 ---
 
 ## Exploratory Data Analysis
 
-We conducted some EDA on our Goodreads and ALA metadata as well as our Amazon.com review dataset. Additionally, we applied Scattertext to our Goodreads and ALA metadata to explore topics banned (and their ban frequencies) by either: 1) parental or political pressure or 2) through a written, formal book ban process.
+We conducted some EDA on our Goodreads and ALA metadata as well as our Amazon.com review dataset. Additionally, we applied Scattertext to our Goodreads and ALA metadata to explore the topics being banned (and their ban frequencies) by either: 1) parental or political pressure or 2) through a written, formal book ban process.
 
 ## Topic Modeling (Goodreads + ALA metadata + Amazon.com review dataset)
 
