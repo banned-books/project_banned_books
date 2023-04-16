@@ -18,7 +18,7 @@
 
 However, we recommend using Option 2 below for free GPUs in Colab.
 
-# Option 2: Directions to Open Our Code in Colab & GDrive (Automatically)
+# Option 2: Run Our Code in Colab & GDrive (Click the Badges Below)
 
 
 # What can we learn about book banning in the United States?
