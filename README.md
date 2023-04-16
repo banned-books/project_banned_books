@@ -60,11 +60,10 @@ We retrieved the list of banned books from the original dataset of banned books 
 
 In addition to the PEN America/ALA dataset, we either scraped or manually entered data to build the following custom datasets:
 
-- Goodreads metadata on the list of banned books: We manually entered this data into a `.csv` file to comply with [Goodreads Terms of Use](https://www.goodreads.com/about/terms) which asks us not to scrape their website and not to redistribute their data for commercial purposes. We are using this data solely for educational purposes. We merged this dataset with the original banned book list from PEN America and the ALA above. Our Goodreads dataset is comprised of the 1,648 banned books and the book's `title`, the `author`, the book cover `goodreads_image_url`, the `published_date` (when the book was first published), the book `description`, and the book `goodreads_tags`. You can access that dataset in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+- Goodreads metadata on the list of banned books: We manually entered this data into a `.csv` file to comply with [Goodreads Terms of Use](https://www.goodreads.com/about/terms) which asks us not to scrape their website and not to redistribute their data for commercial purposes. We are using this data solely for educational purposes. We merged this dataset with the original banned book list from PEN America and the ALA above. Our Goodreads dataset is comprised of the 1,648 banned books and the book's `title`, the `author`, the book cover `goodreads_image_url`, the `published_date` (when the book was first published), the book `description`, and the book `goodreads_tags`. You can view that dataset in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
 
-- Amazon.com reviews on the same list of banned books: We hope to provide a small window into opinion mining and sentiment around these banned books (as it pertains to Amazon.com reviews). These reviews were only scraped from U.S. customers. We followed [Amazon.com Terms of Use policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280) for web scraping by running our custom web scraper in small batches, with timeouts, and during off-peak hours. We are using the data solely for educational purposes. Our custom dataset is comprised of 362,924 Amazon.com reviews. Each review is comprised of the banned book's `title`, the `body` of the review, the review `rating` (one to five stars), and the `review_date`. These reviews span from August 9, 1997, to October 12, 2022. You can easily access and run our custom Amazon.com web scraper in Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KlB4ADUxzuiSYdjytVU1e-T6hZOL1jlk?usp=share_link) You can access the Amazon.com banned book reviews in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/file/d/1G6Up-3I5bBLIdBODLk3m72kjl_afASni/view?usp=share_link)
+- Amazon.com reviews on the same list of banned books: We hope to provide a small window into opinion mining and sentiment around these banned books (as it pertains to Amazon.com reviews). These reviews were only scraped from U.S. customers. We followed [Amazon.com Terms of Use policy](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280) for web scraping by running our custom web scraper in small batches, with timeouts, and during off-peak hours. We are using the data solely for educational purposes. Our custom dataset is comprised of 362,924 Amazon.com reviews. Each review is comprised of the banned book's `title`, the `body` of the review, the review `rating` (one to five stars), and the `review_date`. These reviews span from August 9, 1997, to October 12, 2022. You can easily access and run our custom Amazon.com web scraper in Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KlB4ADUxzuiSYdjytVU1e-T6hZOL1jlk?usp=share_link) You can view the Amazon.com banned book reviews in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://drive.google.com/file/d/1G6Up-3I5bBLIdBODLk3m72kjl_afASni/view?usp=share_link)
 
 ## Exploratory Data Analysis
 
@@ -78,12 +77,13 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic.
 
 ## Visual Similarity (Goodreads + ALA metadata)
 
-- Yale Digital Humanities Lab's PixPlot
+You can view our transfer learning (visual similarity) work [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wa_xeP3Nf058z0xCuA7-zIckxkWmAqhg?usp=share_link), our script to build our banned book PixPlot visualization with our tuned UMAP and KMeans parameters [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://drive.google.com/file/d/1tznvHcwephlZ3SvIILWCp2sb5iLHXk6e/view?usp=share_link), and our pre-built PixPlot WebGL site/assets [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://drive.google.com/drive/folders/1yUazlILivqESUJdyDhh5kz7QILqR-W4-?usp=share_link).
 
 ## Sentiment Analysis (Amazon.com reviews dataset)
 
 ## Appendix
 
+- LDA Topic Modeling on Banned Books Metadata and Amazon.com Reviews
 - NMF Topic Modeling
 - Top2Vec Topic Modeling
 
