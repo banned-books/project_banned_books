@@ -16,7 +16,7 @@
 8. Run in the terminal `cd ../ && jupyter notebook`
 9. You can now run our code.
 
-However, we recommend using Option 2 below for free GPUs in Colab.
+However, we recommend using Option 2 below to use free GPUs in Colab.
 
 # Option 2: Run Our Code in Colab & GDrive (Click the Badges Below)
 
