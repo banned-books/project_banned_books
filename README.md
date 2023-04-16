@@ -58,7 +58,7 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **
 
 - **Joan** | EDA and interactive graphs, topic modeling, ethics and considerations, report writing and editing
 
-- **Alexis** | EDA, supervsied learning / sentiment analysis, topic modeling, dev environment & compute management, report writing and editing
+- **Alexis** | EDA, supervised learning / sentiment analysis, topic modeling, dev environment & compute management, report writing and editing
 
 - **B** | Amazon.com banned book reviews web scraper data acquisition/cleaning, banned book metadata acquisition/cleaning, custom script to download banned book cover images, LDA & BERTopic topic modeling, transfer learning (visual similarity) & custom PixPlot build, basic EDA, proof of concept visual similarity recommendation system, setting up Git org & Google Colab and compute management and GDrive for data, report writing and editing
 
