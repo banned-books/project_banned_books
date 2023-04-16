@@ -1,3 +1,26 @@
+# Option 1: Directions to Run Our Code from GitHub (Manually)
+
+1. Open a terminal and run `git clone git@github.com:banned-books/project_banned_books.git`
+2. Run in the terminal `cd project_banned_books`
+3. Run in the terminal `pip3 install requirements.txt`
+4. Download our three datasets: 
+   - Banned books metadata [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+)](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
+   - Amazon.com reviews on banned books [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+)](https://drive.google.com/file/d/1G6Up-3I5bBLIdBODLk3m72kjl_afASni/view?usp=share_link)
+   - Original U.S. banned books list [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+)](https://drive.google.com/file/d/1KPs4HP9GyRdAg7nQVV-CemhCcYiWgmMn/view?usp=share_link)
+5. Run in the terminal `cd data`
+6. Run in the terminal `open .` to open the file location
+7. Upload the three datasets in this `data` folder
+8. Run in the terminal `cd ../ && jupyter notebook`
+9. You can now run our code.
+
+However, we recommend using Option 2 below for free GPUs in Colab.
+
+# Option 2: Directions to Open Our Code in Colab & GDrive (Automatically)
+
+
 # What can we learn about book banning in the United States?
 
 ## Introduction
@@ -45,7 +68,7 @@ In addition to the PEN America/ALA dataset, we either scraped or manually entere
 
 We conducted some EDA on our Goodreads and ALA metadata as well as our Amazon.com review dataset. Additionally, we applied Scattertext to our Goodreads and ALA metadata to explore the topics being banned (and their ban frequencies) by either: 1) parental or political pressure or 2) through a written, formal book ban process. You can find our banned book metadata EDA in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1onxnUEdiLnnVY7O-mES5nWdUV6PSvgaP?usp=share_link) and our Amazon.com banned book reviews EDA in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11VtVOWohDFFgzN0UArClYDTYD_er0mug?usp=share_link).
 
-## Topic Modeling (Goodreads + ALA metadata + Amazon.com review dataset)
+## Topic Modeling (Goodreads + ALA metadata + Amazon.com reviews dataset)
 
 We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **BERTopic** was our best approach so far with higher coherence, lower perplexity, clear topic diversity, and human interpretable topics and word outputs.
 
@@ -53,9 +76,12 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic. **
 
 - Yale Digital Humanities Lab's PixPlot
 
-## Sentiment Analysis (Amazon.com review dataset)
+## Sentiment Analysis (Amazon.com reviews dataset)
 
 ## Appendix
+
+- NMF Topic Modeling
+- Top2Vec Topic Modeling
 
 ## Statement of Work
 
