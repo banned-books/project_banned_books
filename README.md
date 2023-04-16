@@ -21,11 +21,13 @@ In this project, we are applying the following data science techniques to gain a
 
 We want to dive more into the question: **What can we learn about these banned books in the United States from 2021 to 2022? More specifically, can we use data science techniques to find topics in these banned books (topic modeling), notice visual cues/patterns of the book covers (visual similarity), and/or understand some public opinions (sentiment analysis on banned book Amazon reviews) that possibly illuminate more about this censorship movement?**
 
-## Datasets
+## Project Management
 
 We are utilizing **Google Colab** (code / machine learning for reproducibility and free GPU access), **Github** (repository), and **Google Drive** (for large file storage).
 
 ![Screenshot of integration of Google Colab, Github, and Google Drive](https://drive.google.com/uc?id=1FtOW4QDqXzs0HWF2__9bBFdLCQibfHhE)
+
+## Datasets
 
 We retrieved the list of banned books from the original dataset of banned books tracked by PEN America & the ALA (from July 1, 2021 to June 30, 2022). The most important variables were the `title` and the `author` of the banned book. Additionally, we used the banned book's `origin_of_challenge` (i.e., whether a ban was created from either political and/or parental pressure or a formal, written challenge) and the `type_of_ban` (i.e., where the banned took place, such as in libraries, classrooms, both libraries and classrooms, or pending investigation). Finally, we manually added the `amazon_url` to the book details (to later feed these urls into our custom web scraper to grab book reviews). The original banned book list contained 1,648 unique banned book titles.
 
