@@ -23,7 +23,8 @@
 
 However, we recommend using Option 2 below to use free GPUs in Colab.
 
-# Option 2: Run Our Code in Colab & GDrive (Click the Badges Below as You Read Along)
+# Option 2: Run Our Code in Colab & GDrive 
+**Click the Badges Below as You Read Along**
 
 ## Introduction
 
