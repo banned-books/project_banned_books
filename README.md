@@ -108,7 +108,7 @@ You can view our transfer learning (visual similarity) work [![Open In Colab](ht
 
 - **Alexis** | EDA, supervised learning / sentiment analysis, topic modeling, dev environment & dependency & ML compute management, report writing and editing
 
-- **B** | Amazon.com banned book reviews web scraper data acquisition/cleaning, banned book metadata acquisition/cleaning, custom script to download banned book cover images, LDA & BERTopic topic modeling, transfer learning (visual similarity) & custom PixPlot build, basic EDA, proof of concept visual similarity recommendation system, report writing and editing
+- **B** | Amazon.com banned book reviews web scraper, banned book metadata acquisition/cleaning, custom script to download banned book cover images, LDA & BERTopic topic modeling, transfer learning (visual similarity) & custom PixPlot build, basic EDA, proof of concept visual similarity recommendation system, report writing and editing
 
 ## Acknowledgements
 
