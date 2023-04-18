@@ -13,10 +13,10 @@ Optional: Make a virtualenv with Python3.10 if you would like before running the
 3. Run in the terminal `pip install -r requirements.txt`
 4. Download all our datasets and models into the `data/` folder of project. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/drive/folders/1-x-KqpSLoFMzcWqB9HS0CwF5xvAgot1F?usp=share_link)
-8. Run in the terminal `cd ../ && jupyter notebook`
+8. Along with the downloaded data, run in the terminal `jupyter notebook`
 9. You can now run our code.
 
-However, we recommend using Option 2 below to use free GPUs in Colab and work with our data folders. 
+**However, we highly recommend using Option 2 below to use free GPUs in Colab and work with our data folders.** We have a lot of data, and this should relieve some of the large data file burden.
 
 # Option 2: Run Our Code in Colab & GDrive 
 
