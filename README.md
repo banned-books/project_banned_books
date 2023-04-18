@@ -9,15 +9,8 @@ Note: You need to be running Python 3.10 or below to work with BERTopic. Make a 
 2. Run in the terminal `cd project_banned_books`
 
 3. Run in the terminal `pip install -r requirements.txt`
-4. Download our four datasets (which are too large to store in GitHub): 
-   - Banned books metadata [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
-   - Amazon.com reviews on banned books [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/file/d/1G6Up-3I5bBLIdBODLk3m72kjl_afASni/view?usp=share_link)
-   - Original U.S. banned books list [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/file/d/1KPs4HP9GyRdAg7nQVV-CemhCcYiWgmMn/view?usp=share_link)
-   - Banned book cover images [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/drive/folders/1RhDUK4whl85m9_qLSXFmG80UKFlZfhm0?usp=share_link)
+4. Download all our datasets and models into the `data/` folder of project. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+)](https://drive.google.com/drive/folders/1-x-KqpSLoFMzcWqB9HS0CwF5xvAgot1F?usp=share_link)
 5. Run in the terminal `cd data`
 6. Run in the terminal `open .` to open the file location
 7. Upload the three datasets in this `data` folder
