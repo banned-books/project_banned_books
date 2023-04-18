@@ -3,7 +3,9 @@
 
 # Option 1: Directions to Run Our Code from GitHub (Manually)
 
-Note: You need to be running Python 3.10 or below to work with BERTopic. Make a virtualenv with Python3.10 if you would like before running the requirements.txt.
+**Note: You need to be running Python 3.10 or below to work with BERTopic.** 
+
+Optional: Make a virtualenv with Python3.10 if you would like before running the requirements.txt.
 
 1. Open a terminal and run `git clone git@github.com:banned-books/project_banned_books.git`
 2. Run in the terminal `cd project_banned_books`
