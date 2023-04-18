@@ -11,9 +11,6 @@ Note: You need to be running Python 3.10 or below to work with BERTopic. Make a 
 3. Run in the terminal `pip install -r requirements.txt`
 4. Download all our datasets and models into the `data/` folder of project. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/drive/folders/1-x-KqpSLoFMzcWqB9HS0CwF5xvAgot1F?usp=share_link)
-5. Run in the terminal `cd data`
-6. Run in the terminal `open .` to open the file location
-7. Upload the three datasets in this `data` folder
 8. Run in the terminal `cd ../ && jupyter notebook`
 9. You can now run our code.
 
