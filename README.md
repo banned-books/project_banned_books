@@ -49,7 +49,7 @@ In this project, we are applying the following data science techniques to gain a
 
 We want to dive more into the question: **What can we learn about these banned books in the United States from 2021 to 2022? More specifically, can we use data science techniques to find topics in these banned books (topic modeling), notice visual cues/patterns of the book covers (visual similarity), and/or understand some public opinions (sentiment analysis on banned book Amazon reviews) that possibly illuminate more about this censorship movement?**
 
-You can read the project blog post on [![Open In Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](TODO).
+You can read the project blog post on [![Open In Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@projectbannedbooks/what-can-we-learn-about-book-bans-in-the-united-states-9380fbc5bad9).
 
 ## Project Management
 
