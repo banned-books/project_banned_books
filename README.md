@@ -21,7 +21,7 @@ Optional: Make a virtualenv with Python3.10 if you would like before running the
 # Option 2: Run Our Code in Colab & GDrive 
 
 1. Download all our datasets and models into the `data/` folder of project. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/drive/folders/1-x-KqpSLoFMzcWqB9HS0CwF5xvAgot1F?usp=share_link) On the same directory level as the main `project_banned_books` folder, download the banned book cpver images into a folder named `banned_book_images`. You can view that dataset in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+)](https://drive.google.com/drive/folders/1-x-KqpSLoFMzcWqB9HS0CwF5xvAgot1F?usp=share_link) On the same directory level as the main `project_banned_books` folder, download the banned book cpver images into a folder named `book_cover_images`. You can view that dataset in our Google Drive. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link) You can also view our script to download banned book cover images [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13KlWRcc_3auTduSWlAT8MxO2DXEWd8y0?usp=share_link). 
 
 2. **Click the Google (data) and Colab (code) badges below as you read along.**
