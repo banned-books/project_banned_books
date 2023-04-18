@@ -93,15 +93,15 @@ To run the Pixplot:
 
 The sentiment analysis portion of our work focused on a supervised learning approach to classifying banned books based on their sentiment. Our work for this section is split into multiple files:
 
--	Local Environment Set-up: If you are planning to run this experiment locally, you will need to create a virtual environment to replicate it. Luckily we created a file with the commands needed to replicate this experiment. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] https://drive.google.com/file/d/1K5QFqYsBi_Qoj3vQcAN1j3foVoUh2ShP/view?usp=sharing
+-	Local Environment Set-up: If you are planning to run this experiment locally, you will need to create a virtual environment to replicate it. Luckily we created a file with the commands needed to replicate this experiment. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1K5QFqYsBi_Qoj3vQcAN1j3foVoUh2ShP/view?usp=sharing)
 
--	Data Pre-processing: Responsible for pre-processing raw scrapped data from the Amazon.com review dataset and creating a cleaned file. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] https://drive.google.com/file/d/1fg4gFBO-bKpCgmU8PhRob77bq1pdOZMb/view?usp=sharing
+-	Data Pre-processing: Responsible for pre-processing raw scrapped data from the Amazon.com review dataset and creating a cleaned file. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1fg4gFBO-bKpCgmU8PhRob77bq1pdOZMb/view?usp=sharing)
 
--	Data Vectorization: Vectorizes processed data and outputs file to train models.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] https://colab.research.google.com/drive/103OYnR6OqLe3Qo_mYlkcc2OD0B7LPhAk?usp=sharing
+-	Data Vectorization: Vectorizes processed data and outputs file to train models.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/103OYnR6OqLe3Qo_mYlkcc2OD0B7LPhAk?usp=sharing)
 
--	Model Training: Responsible for applying pre-training algorithms and training multiple models sequentially. Outputs pickled models for evaluation.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] https://drive.google.com/file/d/1-R4W70X6og2hBJoWD6ABEVsbI3robsmR/view?usp=sharing
+-	Model Training: Responsible for applying pre-training algorithms and training multiple models sequentially. Outputs pickled models for evaluation.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1-R4W70X6og2hBJoWD6ABEVsbI3robsmR/view?usp=sharing)
 
--	Analyze: Loads pickled models to create multiple visualizations to interpret out results. This includes but not limited to feature importance, confusion matrix, class report. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] https://drive.google.com/file/d/1QpxoU-lNnBbjlBd-ArlElRoUUBiYzwkl/view?usp=sharing
+-	Analyze: Loads pickled models to create multiple visualizations to interpret out results. This includes but not limited to feature importance, confusion matrix, class report. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1QpxoU-lNnBbjlBd-ArlElRoUUBiYzwkl/view?usp=sharing)
 
 
 
