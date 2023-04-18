@@ -25,16 +25,8 @@ However, we recommend using Option 2 below to use free GPUs in Colab.
 
 # Option 2: Run Our Code in Colab & GDrive 
 
-1. Download our four datasets and upload them to your Google Colab to run the code on your own Colab account.
-
-   - Banned books metadata [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
-   - Amazon.com reviews on banned books [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/file/d/1G6Up-3I5bBLIdBODLk3m72kjl_afASni/view?usp=share_link)
-   - Original U.S. banned books list [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/file/d/1KPs4HP9GyRdAg7nQVV-CemhCcYiWgmMn/view?usp=share_link)
-   - Banned book cover images [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
-)](https://drive.google.com/drive/folders/1RhDUK4whl85m9_qLSXFmG80UKFlZfhm0?usp=share_link)
+1. Download all our datasets and models into the `data/` folder of project. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
+)](https://drive.google.com/drive/folders/1-x-KqpSLoFMzcWqB9HS0CwF5xvAgot1F?usp=share_link)
 
 2. **Click the Google (data) and Colab (code) Badges Below as You Read Along**
 3. Create a copy of the Colab notebooks that you want to run in your Colab account
