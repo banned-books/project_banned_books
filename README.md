@@ -111,7 +111,7 @@ We tried a few topic modeling techniques that didn't make it into our blog post:
 
 - Topic Modeling Exploration [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HT04L3f5DOTmIs-Hxb8VJHZ3Kc-OaGDX)
 - LDA Topic Modeling on Banned Books Metadata and Amazon.com Reviews [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vMONl12SPVpHEXQAnrcHYud-Ccs_A7ez?usp=share_link)
-- NMF Topic Modeling [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1vMONl12SPVpHEXQAnrcHYud-Ccs_A7ez?usp=share_link](https://drive.google.com/file/d/1wlFV-okl_-YSyN2vtpkzpqUizIodB2pc/view?usp=share_link))
+- NMF Topic Modeling [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1wlFV-okl_-YSyN2vtpkzpqUizIodB2pc/view?usp=sharing)
 - Top2Vec Topic Modeling [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q4Yuv42oxaU5ihq8uljtdW5nyWnB9KI4)
 
 We also created a proof of concept visual similarity recommendation system (via the banned book cover images). Please scroll to the bottom of the linked Colab (which also contains inline comments). 
