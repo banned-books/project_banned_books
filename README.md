@@ -3,9 +3,12 @@
 
 # Option 1: Directions to Run Our Code from GitHub (Manually)
 
+Note: You need to be running Python 3.10 or below to work with BERTopic. Make a virtualenv if you would like before running the requirements.txt.
+
 1. Open a terminal and run `git clone git@github.com:banned-books/project_banned_books.git`
 2. Run in the terminal `cd project_banned_books`
-3. Run in the terminal `pip3 install requirements.txt`
+
+3. Run in the terminal `pip install -r requirements.txt`
 4. Download our four datasets (which are too large to store in GitHub): 
    - Banned books metadata [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/file/d/1AgDZCOacTbmMABem8ak9Tz_vkK4zk_Iu/view?usp=share_link)
