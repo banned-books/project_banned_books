@@ -28,8 +28,9 @@ However, we recommend using Option 2 below to use free GPUs in Colab.
 1. Download all our datasets and models into the `data/` folder of project. [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge
 )](https://drive.google.com/drive/folders/1-x-KqpSLoFMzcWqB9HS0CwF5xvAgot1F?usp=share_link)
 
-2. **Click the Google (data) and Colab (code) Badges Below as You Read Along**
-3. Create a copy of the Colab notebooks that you want to run in your Colab account
+2. **Click the Google (data) and Colab (code) badges below as you read along.**
+
+3. Tip: Create a copy of the Colab notebooks that you want to run in your Colab account. Make sure you have run the `mount` GDrive cell in each notebook to connect to the data you downloaded.
 
 ## Introduction
 
