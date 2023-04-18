@@ -77,7 +77,14 @@ We tried a few topic modeling methodologies: NMF, LDA, Top2Vec, and BERTopic.
 
 ## Visual Similarity (Goodreads + ALA metadata)
 
-You can view our transfer learning (visual similarity) work [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wa_xeP3Nf058z0xCuA7-zIckxkWmAqhg?usp=share_link), our script to build our banned book PixPlot visualization with our tuned UMAP and KMeans parameters [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://drive.google.com/file/d/1tznvHcwephlZ3SvIILWCp2sb5iLHXk6e/view?usp=share_link), and our pre-built PixPlot WebGL site/assets [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://drive.google.com/drive/folders/1yUazlILivqESUJdyDhh5kz7QILqR-W4-?usp=share_link).
+You can view our transfer learning (visual similarity) work [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wa_xeP3Nf058z0xCuA7-zIckxkWmAqhg?usp=share_link), our script to build our banned book PixPlot visualization with our tuned UMAP and KMeans parameters [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://drive.google.com/file/d/1tznvHcwephlZ3SvIILWCp2sb5iLHXk6e/view?usp=share_link), and our pre-built PixPlot WebGL site/assets [![Open In GDrive](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=fff&style=for-the-badge)](https://drive.google.com/drive/folders/1yUazlILivqESUJdyDhh5kz7QILqR-W4-?usp=share_link). 
+
+To run the Pixplot:
+
+1. Download our PixPlot assets above, unzip the output.zip file. 
+2. Run `cd output`
+3. Run `python -m http.server 5000`
+4. Go to http://localhost:5000/
 
 ## Sentiment Analysis (Amazon.com reviews dataset)
 
