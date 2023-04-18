@@ -14,7 +14,7 @@ Note: You need to be running Python 3.10 or below to work with BERTopic. Make a 
 8. Run in the terminal `cd ../ && jupyter notebook`
 9. You can now run our code.
 
-However, we recommend using Option 2 below to use free GPUs in Colab.
+However, we recommend using Option 2 below to use free GPUs in Colab and work with our data folders. 
 
 # Option 2: Run Our Code in Colab & GDrive 
 
